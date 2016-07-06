@@ -1,0 +1,23 @@
+{
+  "name": "angular-iterator-repeat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BroFred/angular-iterator-repeat.git"
+  },
+  "author": "BroFred",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BroFred/angular-iterator-repeat/issues"
+  },
+  "homepage": "https://github.com/BroFred/angular-iterator-repeat#readme",
+  "dependencies": {
+    "angular": "^1.5.7",
+    "express": "^4.14.0"
+  }
+}

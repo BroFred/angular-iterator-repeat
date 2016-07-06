@@ -1,0 +1,15 @@
+<html>
+  <header>
+      <script   src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
+      <script src = '../node_modules/angular/angular.min.js'></script>
+      <script src = './angular-interator-repeat.js'></script>
+      <script src ='./controller.js'></script>
+  </header>
+  <body>
+    <div ng-app="app" ng-controller = "mainCtrl">
+      <div it-repeat="i in Btree">
+        {{i}}
+      </div>
+    </div>
+  </body>
+</html>
